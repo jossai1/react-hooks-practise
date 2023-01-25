@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import UseEffectLearning from "./components/UseEffectLearning";
+import UseStateLearning from "./components/UseStateLearning";
+import UseContextLearning from "./components/UseContextLearning/UseContextLearning";
+import UseRefLearning from "./components/UseRefLearning";
+import UseMemoLearning from "./components/UseMemoLearning";
+import UseCallbackLearning from "./components/UseCallbackLearning/UseCallbackLearning";
+import CustomHooks from "./components/customHooks/CustomHooks";
 
-function App() {
+function App () {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <>
+          {/*<UseStateLearning />*/}
+          {/*<UseEffectLearning />*/}
+          {/*<UseContextLearning />*/}
+          {/*<UseRefLearningßng/>*/}
+          {/*<UseMemoLearning/>*/}
+          {/*<UseCallbackLearning/>*/}
+          <CustomHooks/>
+      </>
+      );
 }
 
 export default App;
