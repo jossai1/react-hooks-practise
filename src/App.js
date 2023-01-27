@@ -11,13 +11,13 @@ function App () {
 
   return (
       <>
-          {/*<UseStateLearning />*/}
+          <UseStateLearning />
           {/*<UseEffectLearning />*/}
           {/*<UseContextLearning />*/}
-          {/*<UseRefLearningßng/>*/}
+          {/*<UseRefLearning/>*/}
           {/*<UseMemoLearning/>*/}
           {/*<UseCallbackLearning/>*/}
-          <CustomHooks/>
+          {/*<CustomHooks/>*/}
       </>
       );
 }

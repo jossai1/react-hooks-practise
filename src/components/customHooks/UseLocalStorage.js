@@ -6,13 +6,12 @@ function getSavedValue (key, initialValue) {
 
     if (initialValue instanceof Function) return initialValue()
 
-
     return initialValue;
 }
 
 export default function useLocalStorage (key, initialValue) {
     const [value, setValue] = useState(() => {
-        return getSavedValue(key, initialValue)
+        return getSavedValue(key, initialValue);
     });
 
     useEffect(() => {
